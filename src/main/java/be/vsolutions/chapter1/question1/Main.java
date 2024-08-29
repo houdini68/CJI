@@ -14,7 +14,7 @@ public class Main {
         System.out.printf("binary:%s\n", binaryString); // s for string
         System.out.printf("octal:%o\n", i); // o for octal
         System.out.printf("hexadecimal:%x\n", i); // x for hexadecimal
-        float f = i;
+        float f = i; // a conversion is nec (if not -> error)
         System.out.printf("hexadecimal floating point number:%a\n", f); // a for hexadecimal floating-point
     }
 }
