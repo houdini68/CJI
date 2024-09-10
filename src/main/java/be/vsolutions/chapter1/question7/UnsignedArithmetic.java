@@ -12,6 +12,13 @@ public class UnsignedArithmetic {
          * Do not convert them to long values.
          */
 
+        // Signed Integer Parsing
+        int signedValue = Integer.parseInt("2147483647");
+        System.out.println("Signed Value: " + signedValue); // Output: 2147483647
+
+        // Unsigned Integer Parsing
+        int unsignedValue = Integer.parseUnsignedInt("4294967295");
+        System.out.println("Unsigned Value: " + unsignedValue); // Output: -1
         Scanner scanner = new Scanner(System.in);
 
         // Read two integers
